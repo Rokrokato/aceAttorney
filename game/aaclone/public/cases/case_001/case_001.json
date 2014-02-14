@@ -1,0 +1,83 @@
+{
+    "name": "Sample Case Name",
+    "evidence": [
+        {
+            "name": "Sample Evidence Name 1",
+            "description": "Sample Evidence Name 1",
+            "evidence_photo": "evidence1.jpg"
+        }
+    ],
+    "start_dialogue": [
+        "Sample Starting Dialogue 1",
+        "Sample Starting Dialogue 2",
+        "Sample Starting Dialogue 3"
+    ],
+    "start_photo": "start.jpg",
+    "fail_dialogue": "Sample Fail Dialogue",
+    "fail_photo": "fail.jpg",
+    "win_dialogue": "Sample Win Dialogue",
+    "win_photo": "win.jpg",
+    "testimonies": [
+        {
+            "witness_photo": "witness1.jpg",
+            "evidence": [
+                {
+                    "name": "Sample Evidence Name 2",
+                    "description": "Sample Evidence Name 2",
+                    "evidence_photo": "evidence1.jpg"
+                },
+                {
+                    "name": "Sample Evidence Name 3",
+                    "description": "Sample Evidence Name 3",
+                    "evidence_photo": "evidence2.jpg"
+                },
+                {
+                    "name": "Sample Evidence Name 4",
+                    "description": "Sample Evidence Name 4",
+                    "evidence_photo": "evidence3.jpg"
+                }
+            ],
+            "segue_dialogue": [
+                {
+                    "paragraph": "Sample Segue Dialogue Paragraph 1",
+                    "options": null
+                },
+                {
+                    "paragraph": "Sample Segue Dialogue Paragraph 2",
+                    "options": [
+                        "Sample Segue Dialogue Option A",
+                        "Sample Segue Dialogue Option B",
+                        "Sample Segue Dialogue Option C"
+                    ],
+                    "correct_option": "Sample Segue Dialogue Option C"
+                },
+                {
+                    "paragraph": "Sample Segue Dialogue Paragraph 3",
+                    "options": null
+                }
+            ],
+            "lines": [
+                {
+                    "main": "Sample Main Line 1",
+                    "press": "Sample Press Line 1",
+                    "evidence": null
+                },
+                {
+                    "main": "Sample Main Line 2",
+                    "press": "Sample Press Line 2",
+                    "evidence": null
+                },
+                {
+                    "main": "Sample Main Line 3",
+                    "press": "Sample Press Line 3",
+                    "evidence": {
+                        "name": "Sample Evidence Name 5",
+                        "description": "Sample Evidence Name 5",
+                        "evidence_photo": "evidence4.jpg"
+                    }
+                }
+            ],
+            "contradictory_evidence": "Sample Evidence Name 4"
+        }
+    ]
+}
