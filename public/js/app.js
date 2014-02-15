@@ -39,7 +39,7 @@ function AceAttorneyGame(case_json) {
         $('#dialoguebox').val(this.start_dialogues[0]);
 
         //Lay out the testimonies
-
+        this.start_dialogues.length
         //Create testimony loops
 
         //Run testimony segue dialogue + go thru testimony by itself, add mc options if the value for it is true
