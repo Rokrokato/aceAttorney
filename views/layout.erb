@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Proto Wright: The case of the "DewBader" </title>
+  <title>Proto Wright: The case of the "DewBader"</title>
   <!-- CSS -->
   <link rel="stylesheet" href="./css/app.css?<%= rand(1000000000) %>">
 
@@ -14,10 +14,12 @@
 <%= yield %>
 </body>
 <script>
-    $('#accordion').accordion({active: 0});
-
+    //$('#accordion').accordion({active: 0});
+    $('#img1').offset(
+            {top: $('#outline').offset().top + $('#title').height +50, left: $('#outline').offset().top + 50}
+    );
     $('#img2').offset(
-            { top:$('#img1').offset().top, left: $('#img1').offset().left + $('#img1').width()}
+            {top:$('#img1').offset().top, left: $('#img1').offset().left + $('#img1').width()}
     );
 
     $('#accordion').offset(
@@ -25,7 +27,7 @@
     );
 
     $('#dialoguebox').offset(
-            {top: $('#img1').offset().top + $('#img1').height() + $('#name').height(), left: $('#img1').offset().left }
+            {top: $('#img1').offset().top + $('#img1').height() + 40, left: $('#img1').offset().left }
     )
 </script>
 </html>

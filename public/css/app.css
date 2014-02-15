@@ -9,7 +9,10 @@ body {
     background: lightgray;
     border-style: solid;
     width: 1000px;
-    height: 600px;
+    height: 700px;
+}
+#title {
+
 }
 #img1 {
     position: absolute;
@@ -17,8 +20,6 @@ body {
     border-style: solid;
     height: 300px;
     width: 400px;
-    top: 10%;
-    left: 5%;
 }
 #img2 {
     position: absolute;
@@ -43,5 +44,8 @@ body {
 }
 button {
     position: absolute;
-    top: 80%;
+    top: 70%;
+}
+#next_btn {
+    left: 80px;
 }
