@@ -8,20 +8,40 @@ body {
 #outline {
     background: lightgray;
     border-style: solid;
+    width: 1000px;
+    height: 600px;
 }
 #img1 {
+    position: absolute;
     background: lightgray;
     border-style: solid;
     height: 300px;
     width: 400px;
+    top: 10%;
+    left: 5%;
 }
 #img2 {
+    position: absolute;
     background: lightgray;
     border-style: solid;
     height: 300px;
     width: 300px;
 }
+#accordion {
+    position: absolute;
+}
+#name {
+    position: absolute;
+    background: cadetblue;
+    width: 60px;
+    height: 20px;
+}
 #dialoguebox {
+    position: absolute;
     width: 700px;
     height: 200px;
+}
+button {
+    position: absolute;
+    top: 80%;
 }

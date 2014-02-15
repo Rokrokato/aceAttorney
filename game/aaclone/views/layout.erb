@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Proto Wright: The case of the "DewBader" </title>
   <!-- CSS -->
   <link rel="stylesheet" href="./css/app.css?<%= rand(1000000000) %>">
 
   <!-- Javascript -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
   <script src="./js/app.js?<%= rand(1000000000) %>"></script>
 </head>
 <body>
 <%= yield %>
 </body>
+<script>
+    $('#accordion').accordion({active: });
+
+    $('#img2').offset(
+            { top:$('#img1').offset().top, left: $('#img1').offset().left + $('#img1').width()}
+    );
+
+    $('#accordion').offset(
+            {top:$('#img1').offset().top, left: $('#img2').offset().left + $('#img2').width() + 20}
+    );
+
+    $('#dialoguebox').offset(
+            {top: $('#img1').offset().top + $('#img1').height() + $('#name').height(), left: $('#img1').offset().left }
+    )
+</script>
 </html>
